@@ -1,8 +1,41 @@
 ;; Author: Eric Power
 ;;
-;; I've been vaccilating about learning emacs for a while, but what finally put me over was Clojure. I really want to like Clojure: Rich Hickey's design philosophy speaks to me,
-;; I like writing functional code, and having immutable datastructures is wonderful. But Clojure runs on the JVM, which means that running scripts has a startup cost, and this
-;; my typical programming workflow (which involves running what I'm writing frequently). So I was looking at what the Clojure community does to get around this, and it's pretty
-;; clear that a proper REPL for Clojure is viewed as not only a necessity, but one of the best parts of Clojure. And emacs seems to be the gold standard for Clojure REPLs.
 
-;; This directory will start out with a lot 
+;; Set up the MELPA stable repository
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+(package-initialize)
+
+
+;; Clojure setup
+(defvar clojure-packages '(better-defaults
+                      projectile
+                      clojure-mode
+                      cider
+		      paredit))
+
+(dolist (p clojure-packages)
+  (unless (package-installed-p p)
+    (package-install p)))
+(custom-set-variables
+
+
+
+
+
+
+
+;; ---------------------------------------------------------------------------------------------------------
+ 
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages (quote (better-defaults))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
