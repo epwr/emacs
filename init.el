@@ -7,6 +7,11 @@
              '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (package-initialize)
 
+;; Set up multiple-cursors
+(unless (package-installed-p 'multiple-cursors)
+    (package-install 'multiple-cursors))
+(require 'multiple-cursors)
+
 
 ;; Clojure setup
 (defvar clojure-packages '(better-defaults
@@ -39,7 +44,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (better-defaults))))
+ '(package-selected-packages (quote (multiple-cursors better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
