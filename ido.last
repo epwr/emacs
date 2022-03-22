@@ -1,0 +1,361 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/epwr/current/audette-customer-ui/" . "src/")
+ ("/Users/epwr/current/" . "audette-customer-ui/")
+ ("/Users/epwr/custom/brain/src/" . "schemas/")
+ ("/Users/epwr/custom/brain/" . "src/")
+ ("/Users/epwr/audette/projects/audette-customer-ui/src/pages/" . "Monitoring/")
+ ("/Users/epwr/audette/projects/audette-customer-ui/src/" . "pages/")
+ ("/Users/epwr/audette/projects/audette-customer-ui/" . "src/")
+ ("/Users/epwr/audette/sesame/easy-data-gathering/" . "lib/")
+ ("/Users/epwr/custom/teaching-code/sql/" . "220315-building-science/")
+ ("/Users/epwr/audette/data-scripts/safety_valve_to_gd/" . "lib/")
+ ("/Users/epwr/audette/data-scripts/" . "safety_valve_to_gd/")
+ ("/Users/epwr/audette/working/tools/espm_xlsx_converter/outputs/" . "brookfield/")
+ ("/Users/epwr/custom/teaching-code/javascript/" . "220308/")
+ ("/Volumes/" . "system-boot/")
+ ("/System/" . "Volumes/")
+ ("/Users/epwr/audette/working/tools/espm_xlsx_converter/" . "outputs/")
+ ("/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/output/" . "1HY2-UhK8MEXU1Q-cK245qiLUZT2XJXMsffvmCE8E_DM/")
+ ("/Users/epwr/audette/sesame/analytics_layer/setting_up_good_data/" . "lib/")
+ ("/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/" . "lib/")
+ ("/Users/epwr/audette/sesame/analytics_layer/" . "mvp_to_gooddata_ingestion/")
+ ("/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/output/" . "firstcapital/")
+ ("/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/" . "output/")
+ ("/Users/epwr/custom/financial-exploration/frontend/src/" . "molecules/")
+ ("/Users/epwr/custom/financial-exploration/frontend/" . "src/")
+ ("/Users/epwr/custom/financial-exploration/backend/app/" . "data_access/")
+ ("/Users/epwr/custom/financial-exploration/backend/" . "secrets/")
+ ("/Users/epwr/custom/financial-exploration/" . "backend/")
+ ("/Users/epwr/custom/teaching-code/" . "sql/")
+ ("/Users/epwr/custom/" . "brain/")
+ ("/Users/epwr/audette/projects/scripts-backend/" . "app/")
+ ("/Users/epwr/audette/projects/brick-manager/schemas/" . "salient_reference/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-engine/app/" . "data_access/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-engine/" . "app/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-backend/app/" . "data_access/")
+ ("/Users/epwr/audette/working/apps/measures-tool/" . "backend/")
+ ("/Users/epwr/audette/working/gooddata/" . "220117-testing/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-backend/" . "app/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/components/" . "molecules/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/" . "components/")
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/" . "src/")
+ ("/Users/epwr/audette/projects/brick-manager/" . "brick-frontend/")
+ ("/Users/epwr/audette/projects/brick-ui/src/components/" . "molecules/")
+ ("/Users/epwr/audette/projects/brick-ui/src/" . "components/")
+ ("/Users/epwr/audette/projects/brick-ui/" . "src/")
+ ("/Users/epwr/audette/working/customers/osgoode/add_data/" . "output/")
+ ("/Users/epwr/audette/working/customers/osgoode/" . "add_data/")
+ ("/Users/epwr/audette/working/apps/input-layer-modifier/ilm-frontend/src/components/" . "organisms/")
+ ("/Users/epwr/audette/working/apps/input-layer-modifier/ilm-frontend/src/" . "components/")
+ ("/Users/epwr/audette/working/apps/input-layer-modifier/ilm-frontend/" . "src/")
+ ("/Users/epwr/audette/working/apps/input-layer-modifier/" . "ilm-frontend/")
+ ("/Users/epwr/audette/working/apps/" . "demo/")
+ ("/Users/epwr/audette/working/tools/ge_kml_builder/" . "outputs/")
+ ("/Users/epwr/audette/working/customers/" . "brookfield/")
+ ("/Users/epwr/audette/sesame/scripts/data-integration/tools/" . "audette_api/")
+ ("/Users/epwr/audette/sesame/scripts/data-integration/" . "analytics_layer/")
+ ("/Users/epwr/audette/sesame/scripts/" . "data-integration/")
+ ("/Users/epwr/audette/working/emissions/" . "can_elec_grid_2021/")
+ ("/Users/epwr/audette/working/tools/" . "espm_xlsx_converter/")
+ ("/Users/epwr/audette/audette-frontend/src/content/" . "constants/")
+ ("/Users/epwr/audette/audette-frontend/src/" . "content/")
+ ("/Users/epwr/audette/audette-frontend/" . "src/")
+ ("/Users/epwr/audette/sesame/audit_spreadsheet/" . "lib/")
+ ("/Users/epwr/audette/projects/customizable-form/frontend/src/" . "molecules/")
+ ("/Users/epwr/audette/projects/customizable-form/frontend/" . "src/")
+ ("/Users/epwr/audette/projects/customizable-form/" . "backend/")
+ ("/Users/epwr/audette/projects/" . "audette-customer-ui/")
+ ("/Users/epwr/audette/working/urjanet/" . "scripts/")
+ ("/Users/epwr/audette/sesame/" . "easy-data-gathering/")
+ ("/Users/epwr/personal/ctools/" . "bin/")
+ ("/Users/epwr/personal/" . "ctools/")
+ ("/Users/epwr/audette/working/measures-tool/frontend/src/" . "atoms/")
+ ("/Users/epwr/audette/working/measures-tool/frontend/" . "public/")
+ ("/Users/" . "epwr/")
+ ("/" . "Users/")
+ ("/Users/epwr/.emacs.d/" . "auto-save-list/")
+ ("/Users/epwr/audette/working/measures-tool/frontend-2/src/" . "molecules/")
+ ("/Users/epwr/audette/working/measures-tool/frontend-2/" . "src/")
+ ("/Users/epwr/audette/working/measures-tool/backend-2/src/" . "css/")
+ ("/Users/epwr/audette/working/measures-tool/" . "backend/")
+ ("/Users/epwr/audette/working/" . "tools/")
+ ("/Users/epwr/audette/" . "projects/")
+ ("/Users/epwr/" . "current/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/epwr/current/audette-customer-ui/src/"
+ "/Users/epwr/.emacs.d/"
+ "/Users/epwr/audette/projects/audette-customer-ui/"
+ "/Users/epwr/audette/projects/audette-customer-ui/src/"
+ "/Users/epwr/audette/sesame/easy-data-gathering/lib/"
+ "/Users/epwr/custom/brain/src/"
+ "/Users/epwr/custom/brain/src/schemas/"
+ "/Users/epwr/audette/sesame/easy-data-gathering/"
+ "/Users/epwr/audette/sesame/easy-data-gathering/lookup_data/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/"
+ "/Users/epwr/audette/projects/audette-customer-ui/src/pages/Monitoring/"
+ "/Users/epwr/audette/projects/audette-customer-ui/src/auth/"
+ "/Users/epwr/audette/sesame/easy-data-gathering/secrets/"
+ "/Users/epwr/custom/teaching-code/sql/220315-building-science/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/src/components/molecules/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/src/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/src/pages/"
+ "/Users/epwr/audette/projects/brick-manager/brick-engine/app/data_access/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/src/components/organisms/"
+ "/Users/epwr/audette/projects/brick-manager/brick-backend/app/data_access/"
+ "/Users/epwr/audette/projects/brick-manager/brick-backend/app/"
+ "/Users/epwr/audette/projects/brick-manager/brick-engine/app/"
+ "/Users/epwr/audette/data-scripts/safety_valve_to_gd/lib/"
+ "/Users/epwr/audette/data-scripts/safety_valve_to_gd/"
+ "/Users/epwr/audette/sesame/audit_spreadsheet/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/src/utils/"
+ "/Users/epwr/audette/working/tools/espm_xlsx_converter/"
+ "/Users/epwr/audette/working/tools/misc/"
+ "/Users/epwr/audette/projects/brick-manager/brick-backend/secrets/"
+ "/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/lib/"
+ "/Users/epwr/audette/working/tools/espm_xlsx_converter/outputs/brookfield/"
+ "/Users/epwr/custom/teaching-code/javascript/220308/"
+ "/Users/epwr/audette/working/tools/espm_xlsx_converter/lib/"
+ "/Users/epwr/audette/sesame/analytics_layer/setting_up_good_data/lib/"
+ "/Users/epwr/audette/projects/brick-manager/schemas/salient_reference/"
+ "/Users/epwr/audette/projects/brick-manager/brick-frontend/public/"
+ "/Volumes/system-boot/"
+ "/Users/epwr/custom/financial-exploration/"
+ "/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/"
+ "/Users/epwr/audette/sesame/analytics_layer/building_gd_schema/"
+ "/Users/epwr/audette/"
+ "/Users/epwr/audette/working/customers/brookfield/"
+ "/Users/epwr/audette/sesame/scripts/data-integration/"
+ "/Users/epwr/audette/working/tools/get_weather_data/"
+ "/Users/epwr/custom/teaching-code/javascript/"
+ "/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/output/1HY2-UhK8MEXU1Q-cK245qiLUZT2XJXMsffvmCE8E_DM/"
+ "/Users/epwr/audette/sesame/analytics_layer/setting_up_good_data/"
+ "/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/output/firstcapital/"
+ "/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/lib/"
+ "/Users/epwr/audette/working/gooddata/220222-data-model/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "App.tsx"
+ "init.el"
+ "deploy.sh"
+ "layer_on_energy_data.py"
+ "domainmodel.py"
+ "eventstore.sql"
+ "layer_on_measures.py"
+ "run.py"
+ "measures.json"
+ "region_to_grid_region.json"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/epwr/.emacs.d/" (25145 6853 293515 588000) "backups/" "themes/" ".git/" "elpa/" ".gitignore" "init.el" ".python-environments/" "auto-save-list/" "init-mac-os.el" ".mc-lists.el" "ido.last" "ac-comphist.dat" "../" "./")
+
+ ("/Users/epwr/" (25145 5595 54564 552000) ".zsh_sessions/" ".viminfo" ".bash_history" ".putty/" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" "custom/" ".vscode/" ".mysql_history" "audette/" "Documents/" ".npm/" ".Trash/" "Movies/" ".ssh/" "current/" "Public/" ".sqlite_history" ".zcompdump-Eric’s MacBook Pro-5.8" ".node_repl_history" ".emacs.d/" "Library/" "Desktop/" ".zsh_history" ".boto" ".zprofile" ".zshrc.backup" "Pictures/" ".psql_history" ".local/" ".zshrc" ".zshrc.pre-oh-my-zsh" ".rbenv/" ".wget-hsts" ".CFUserTextEncoding" ".yarnrc" ".zshrc~" ".gnupg/" ".DS_Store" ".gsutil/" ".docker/" "Music/" ".config/" "../" "./")
+
+ ("/Users/epwr/current/audette-customer-ui/src/" (25140 54892 747635 519000) "global/" "pages/" "assets/" "react-app-env.d.ts" "components/" "reportWebVitals.ts" "setupTests.ts" "index.css" "setupProxy.js" "auth/" "context/" "App.tsx" "index.tsx" "../" "./")
+
+ ("/Users/epwr/current/audette-customer-ui/" (25140 55813 31985 855000) "src/" "catalog.ts" ".git/" "build/" "nginx.conf" "deploy.sh" "tsconfig.json" "package.json" ".gitignore" "public/" ".dockerignore" "yarn.lock" ".cloudignore" "README.md" "node_modules/" "Dockerfile" "run_deploy.sh" "../" "./")
+
+ ("/Users/epwr/current/" (25145 5483 911365 78000) "brick-engine/" "audette-customer-ui/" "brick-backend/" "brick-frontend/" "../" "./")
+
+ ("/Users/epwr/audette/projects/audette-customer-ui/src/" (25140 54892 747635 519000) "global/" "pages/" "assets/" "react-app-env.d.ts" "components/" "reportWebVitals.ts" "setupTests.ts" "index.css" "setupProxy.js" "auth/" "context/" "App.tsx" "index.tsx" "../" "./")
+
+ ("/Users/epwr/audette/projects/audette-customer-ui/" (25140 54804 531766 620000) "src/" "catalog.ts" ".git/" "build/" "nginx.conf" "deploy.sh" "tsconfig.json" "package.json" ".gitignore" "public/" ".dockerignore" "yarn.lock" ".cloudignore" "README.md" "node_modules/" "#deploy.sh#" "Dockerfile" "run_deploy.sh" "../" "./")
+
+ ("/Users/epwr/audette/sesame/easy-data-gathering/lib/" (25139 43508 529231 630000) "parse_costar_data.py" "layer_on_google_data.py" "layer_on_energy_data.py" "layer_on_emissions.py" "layer_on_gfa_calculation.py" "layer_on_end_use_benchmarks.py" "__init__.py" "layer_on_measures.py" "../" "./")
+
+ ("/Users/epwr/custom/brain/src/" (25139 61656 45259 774000) "application.py" "domainmodel.py" "__init__.py" "../" "./")
+
+ ("/Users/epwr/custom/brain/src/schemas/" (25139 57955 903288 674000) "eventstore.sql" "../" "./")
+
+ ("/Users/epwr/custom/brain/" (25139 57891 606209 548000) "src/" ".git/" "README.md" "../" "./")
+
+ ("/Users/epwr/custom/" (25139 57881 642688 539000) "teaching-code/" "documents/" "brain/" "emacs/" "financial-exploration/" "experiments/" "code-fragments/" "simplessg/" "ctools/" ".DS_Store" "rasp-pi/" "../" "./")
+
+ ("/Users/epwr/audette/sesame/easy-data-gathering/lookup_data/" (25139 38928 67829 153000) "region_to_grid_region.json" "measures.json" "bc_end_use_benchmarks.csv" "../" "./")
+
+ ("/Users/epwr/audette/sesame/easy-data-gathering/" (25139 38751 535116 882000) "lookup_data/" "lib/" ".gitignore" "output/" "poc-building-data.json" "secrets/" "input/" "run.py" "../" "./")
+
+ ("/Users/epwr/audette/working/gooddata/220203-data-modeling/" (25085 27101 18647 839000) "new.py" ".gitignore" "run_gooddata_setup.py" "secrets/" "queries.txt" "data_model.sql" "../" "./")
+
+ ("/Users/epwr/audette/sesame/easy-data-gathering/secrets/" (25137 561 24984 876000) "google-geocoding-api-key.json" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/" (25139 38337 514846 523000) "src/" "#Dockerfile#" "package.json" "package-lock.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" "Dockerfile" "../" "./")
+
+ ("/Users/epwr/audette/projects/audette-customer-ui/src/pages/Monitoring/" (25138 31097 245755 611000) "Monitoring-Building.tsx" "Monitoring-Customer.tsx" "Monitoring.tsx" "../" "./")
+
+ ("/Users/epwr/audette/projects/audette-customer-ui/src/pages/" (25131 63914 285457 679000) "Monitoring/" "Planning/" "../" "./")
+
+ ("/Users/epwr/audette/projects/audette-customer-ui/src/auth/" (25131 63914 284019 216000) "AuthProvider.tsx" "ExternalApi.tsx" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/setting_up_good_data/" (25136 63700 442337 757000) "lib/" "run_audit_sheet_extraction.py" "config.yaml" "output/" "secrets/" "input/" "schemas.sql" "../" "./")
+
+ ("/Users/epwr/audette/sesame/scripts/data-integration/" (25136 63700 448130 580000) "data-file-templates/" "README.md" "tests/" "run_ingestion.py" "urjanet-scripts/" ".DS_Store" "tools/" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/building_gd_schema/" (25136 63700 415172 471000) "queries.sql" "gen_schema.py" "queries.json" "column_mappings.json" "table_list.csv" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/" (25136 63700 417493 717000) "lib/" ".gitignore" "README.md" "__init__.py" "secrets/" "config.json" "mvp_to_gd.zip" "google_application_credentials.json" "run.py" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/setting_up_good_data/lib/" (25136 63700 432133 525000) "convert_equipment.py" "upload_data.py" "download_csvs.py" "utils.py" "__init__.py" "convert_data.py" "convert_energy_data.py" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/lib/" (25136 63700 416894 135000) "convert_and_upload_data.py" "utils.py" "get_data_from_mvp_spreadsheet.py" "../" "./")
+
+ ("/Users/epwr/audette/sesame/audit_spreadsheet/" (25136 63700 445675 876000) "gspread-credentials.secret" "equipment_list.py" "main.py" "download_csvs.py" "delete_queried_docs.py" "write_data.py" "lib/" ".gitignore" "run_audit_sheet_extraction.py" "project_list.py" "README.md" "equipment_end_use.py" "__init__.py" "config.yaml" "output/" "google_application_credentials.json" "input/" "requirements.txt" "project_roadmap.py" "manual_queries.py" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-engine/app/" (25135 49621 4946 685000) "utils.py" "engine.py" "__init__.py" "current_roadmap_struct.json" "data_access/" "log.py" "event_sink.py" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-backend/app/" (25135 43073 836962 120000) "buildings.py" "bricks.py" "utils.py" "admin.py" "__init__.py" "data_access/" "digital_twin.py" "metadata.py" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-backend/app/data_access/" (25135 42449 820846 590000) "auth0.py" "warehouse_db.py" "gooddata.py" "mailchimp.py" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-engine/app/data_access/" (25135 49313 581024 300000) "transaction_db.py" "brick_backend.py" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/sql/220315-building-science/" (25136 42526 561225 969000) "lesson-plan.md" "../" "./")
+
+ ("/Users/epwr/audette/sesame/" (25136 63827 416491 104000) "audette-docker/" ".git/" "data-fusion/" "onni/" "scripts/" "analytics_layer/" ".gitignore" "README.md" "audit_spreadsheet/" "easy-data-gathering/" ".DS_Store" "DataFlow/" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/sql/" (25135 60297 104283 23000) "220315-building-science/" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/" (25135 60286 270742 759000) "sql/" ".git/" "javascript/" "examples/" "notes/" "README.md" "python/" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/components/molecules/" (25135 43428 999852 415000) "EditBrickModal.jsx" "AddCustomerButton.jsx" "AddUserButton.jsx" "TestBrickButton.jsx" "Tabular.jsx" "CreateBuildingButton.jsx" "ApproveSurveyButton.jsx" "SendUserRegistrationButton.jsx" "CalculationInformation.jsx" "UserCard.jsx" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/pages/" (25135 44113 397374 562000) "CustomerManager.jsx" "DigitalTwinManager.jsx" "VocabularyViewer.jsx" "BuildingManager.jsx" "BrickManager.jsx" "MainPage.jsx" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/" (25135 44015 542909 940000) "pages/" "App.jsx" "components/" "index.css" "utils/" "index.js" "audette-logo.svg" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/components/organisms/" (25135 43339 62451 945000) "SurveyResults.jsx" "DigitalTwinEditor.jsx" "BrickInformation.jsx" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/components/" (25081 52972 474231 779000) "organisms/" "atoms/" "molecules/" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/output/1HY2-UhK8MEXU1Q-cK245qiLUZT2XJXMsffvmCE8E_DM/" (25130 13862 875223 699000) "carbon_reduction_measures.json" "equipment_ventilation.json" "historical_utility_data_consumption_and_savings.json" "equipment_pumps.json" "equipment_cooling_tower.json" "equipment_dhw.json" "equipment_cooling_plant.json" "equipment_lighting.json" "performance.json" "actual_consumption.json" "carbon_reduction_measure_savings.json" "building_information.json" "equipment_heating_plant.json" "benchmarks.json" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/schemas/salient_reference/" (25131 41036 486537 849000) "bq_tables.sql" "generate_sql.py" "field-list.csv" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/misc/" (25132 14031 891342 693000) "reorg-onboard-data-for-gd/" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/espm_xlsx_converter/" (25131 32880 990931 531000) "inputs/" "outputs/" "lib/" "README.md" "__init__.py" "config.json" "run.py" "../" "./")
+
+ ("/Users/epwr/audette/data-scripts/safety_valve_to_gd/" (25134 22590 32247 270000) "lib/" "package.json" ".gitignore" "README.md" "__init__.py" "output/" "secrets/" "config.json" "run.py" "../" "./")
+
+ ("/Users/epwr/audette/projects/" (25131 63910 429783 795000) "audette-customer-ui/" "brick-manager/" "package.json" "package-lock.json" "yarn.lock" "bs-script-runner/" "node_modules/" "scripts-backend/" "customizable-form/" "../" "./")
+
+ ("/Users/epwr/audette/data-scripts/safety_valve_to_gd/lib/" (25131 62664 885927 369000) "convert_and_upload_data.py" "utils.py" "get_data_from_mvp_spreadsheet.py" "../" "./")
+
+ ("/Users/epwr/audette/data-scripts/" (25131 53612 416530 476000) "safety_valve_to_gd/" ".git/" ".gitignore" "../" "./")
+
+ ("/Users/epwr/audette/" (25131 53610 961640 568000) "audette-frontend/" "audette-backend/" "sesame/" "data-scripts/" "working/" "projects/" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/src/utils/" (25131 41036 485823 800000) "config.jsx" "vocab-api.jsx" "sql.jsx" "misc.jsx" "api.jsx" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-backend/" (25131 39689 609279 731000) "main.py" "README.md" "test.py" "requirements/" "secrets/" "Dockerfile" "config/" "app/" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/" (25131 39689 607300 469000) "brick-engine/" ".git/" ".gitignore" "README.md" "schemas/" "brick-backend/" "brick-frontend/" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-backend/secrets/" (25130 40910 730782 652000) "gooddata-credentials.json" "mailchimp-credentials.json" "auth0-credentials.json" "bq-credentials.json" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/" (25130 21967 357334 297000) "espm_xlsx_converter/" "ge_kml_builder/" "addr_to_satelitte_image/" "get_weather_data/" "maps-tools/" ".DS_Store" "misc/" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/javascript/" (25128 5459 684668 645000) "200301-almost-tic-tac-toe.zip" "200301-almost-tic-tac-toe/" "220308/" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/javascript/220308/" (25128 3682 450744 878000) "script.js" "index.css" "index.html" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/espm_xlsx_converter/outputs/brookfield/" (25129 5344 152153 698000) "insert-rbb-100.sql" "insert-sec-west.sql" "insert-fifth-avenue-west.sql" "insert-fifth-avenue-east.sql" "insert-sec-east.sql" "insert-bpc.sql" "insert-bankers-hall.sql" "insert-rbb-13.sql" "insert-rbb-14.sql" "insert-bankers-court.sql" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/espm_xlsx_converter/outputs/" (25120 6261 782456 468000) "brookfield/" "../" "./")
+
+ ("/Users/epwr/audette/audette-backend/" (25047 30731 399344 104000) "bitbucket-pipelines.yml" "campus_site/" "stats/" "project_category/" "equipment/" "pytest-prod.ini" "auth0/" "meter/" "resource/" ".git/" "audette/" "portfolio_invite/" "weather/" "slack/" "manage.py" "device/" "report/" "calculated_point/" "measure/" "portfolio/" "capital_program/" "audette_email/" ".gitignore" "data_collector/" "climate_zone_lookup/" "portfolio_user/" "project/" "units/" "hubspot/" "README.md" "onboard_data/" "tagging/" "project_list/" "user/" "equipment_category/" "site_category/" "baseline/" "capital_provider/" "tests/" "campus/" "dispatcher/" "climate_zone/" "point/" "uwsgi.ini" "location/" "requirements.txt" "box_request/" "pytest.ini" "box/" "csv_data/" "cron.yaml" "app.yaml" "report_data/" "snapshot/" "notify/" "settings/" "meter_category/" "audette_google/" "benchmark/" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-engine/tests/" (25125 23909 173822 555000) "hit_backend_digital_twin_update.sh" "add_building.sql" "hit_event_sink_run.sh" "../" "./")
+
+ ("/Users/epwr/audette/projects/brick-manager/brick-frontend/public/" (25126 12627 487186 838000) "robots.txt" "manifest.json" "audette-logo.svg" "index.html" "favicon.ico" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/" (25124 3356 598823 100000) ".git/" "README.md" "backend/" "frontend/" "../" "./")
+
+ ("/Volumes/system-boot/" (25124 1666 0 0) ".fseventsd/" ".Spotlight-V100/" "fixup4db.dat" "start4.elf" "bcm2837-rpi-3-b.dtb" "start_cd.elf" "vmlinuz" "syscfg.txt" "start4x.elf" "bcm2711-rpi-400.dtb" "README" "bcm2710-rpi-zero-2.dtb" "fixup_cd.dat" "bcm2711-rpi-cm4.dtb" "fixup4cd.dat" "fixup.dat" "start_db.elf" "fixup_db.dat" "start4db.elf" "bcm2710-rpi-3-b-plus.dtb" "config.txt" "fixup4x.dat" "start4cd.elf" "boot.scr" "bcm2837-rpi-3-a-plus.dtb" "fixup_x.dat" "uboot_rpi_4.bin" "uboot_rpi_3.bin" "user-data" "bcm2710-rpi-3-b.dtb" "bcm2710-rpi-cm3.dtb" "cmdline.txt" "overlays/" "bootcode.bin" "start_x.elf" "uboot_rpi_arm64.bin" "start.elf" "fixup4.dat" "bcm2711-rpi-4-b.dtb" "initrd.img" "bcm2710-rpi-2-b.dtb" "usercfg.txt" "bcm2837-rpi-3-b-plus.dtb" "meta-data" "network-config" "bcm2837-rpi-cm3-io3.dtb" "../" "./")
+
+ ("/Volumes/" (25124 1516 457858 768000) "Macintosh HD/" "system-boot/" "../" "./")
+
+ ("/System/Volumes/" (25007 61615 0 0) "iSCPreboot/" "Data/" "FieldServiceRepair/" "FieldService/" "VM/" "xarts/" "Preboot/" "Recovery/" "BaseSystem/" "Update/" "Hardware/" "FieldServiceDiagnostic/" "../" "./")
+
+ ("/System/" (25007 61615 0 0) "DriverKit/" "Volumes/" "Applications/" "Library/" "iOSSupport/" ".localized" "Developer/" "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/" (25122 33923 1978 613000) "setting_up_good_data/" ".gitignore" "building_gd_schema/" "mvp_to_gooddata_ingestion/" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/espm_xlsx_converter/lib/" (25120 64015 874866 581000) "utils.py" "../" "./")
+
+ ("/Users/epwr/audette/working/tools/get_weather_data/" (25120 63102 377962 469000) "upload_data.py" ".gitignore" "weather_csvs/" "download_data.py" "secrets/" "station_inventory.csv" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/audette/working/customers/brookfield/" (25119 60728 463175 824000) "outputs/" "BPC Historical Utility Data 2016-2021YTD_SE edits.xls.xlsx" "SEC Historical Utility Data 2008-2021YTD.xls.xlsx" "format_energy_data.py" "FAP Historical Utility Data 2008-2021YTD.xls.xlsx" ".DS_Store" "BH Historical Utility Data 2008-2021YTD.xls.xlsx" "BC Historical Utility Data 2010-2021YTD.xls.xlsx" "../" "./")
+
+ ("/Users/epwr/audette/working/" (25072 42294 155652 69000) "branding-assets/" "urjanet/" "apps/" "_archive/" ".git/" "my_description.txt" "osgoode-energy-export.sql" "meetings/" "addr_to_climate_zone/" "gooddata/" "wpm-sdm-buidlings.txt" "data-cleaning/" "audette-galaxy-schema-v0.1" ".DS_Store" "tools/" "emissions/" "sql-engine/" "morguard-calgary-sql-script.sql" "audette-galaxy-schema-v0.1.bak" "customers/" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/python/" (25109 38371 527756 408000) "../" "./")
+
+ ("/Users/epwr/audette/sesame/analytics_layer/mvp_to_gooddata_ingestion/output/" (25117 14038 164548 499000) "1HY2-UhK8MEXU1Q-cK245qiLUZT2XJXMsffvmCE8E_DM/" "../" "./")
+
+ ("/Users/" (25007 61615 0 0) "epwr/" "Shared/" "Admin/" ".localized" "../" "./")
+
+ ("/Users/epwr/audette/working/gooddata/220222-data-model/" (25116 64613 559349 633000) "schemas.sql" "../" "./")
+
+ ("/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/lib/" (25117 10965 198104 410000) "convert_equipment.py" "upload_data.py" "download_csvs.py" "utils.py" "__init__.py" "convert_data.py" "convert_energy_data.py" "../" "./")
+
+ ("/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/output/firstcapital/" (25111 2349 224179 717000) "measure_savings.json" "equipment.json" "actual_consumption.json" "predicted_consumption.json" "recommended_measures.json" "buildings.json" "../" "./")
+
+ ("/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/output/" (25085 32563 931534 150000) "firstcapital/" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/audette/sesame/scripts/data-integration/analytics_layer/" (25117 4751 292223 300000) "lib/" ".gitignore" "run_audit_sheet_extraction.py" "config.yaml" "output/" "data.zip" "secrets/" "input/" "schemas.sql" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/audette/working/data-cleaning/" (25074 55890 89833 420000) "data-gen.py" "utils.py" "__pycache__/" "__init__.py" "output/" "input/" "example.csv" ".DS_Store" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/backend/secrets/" (25109 10675 703091 257000) "#schemas.sql#" "data.sqlite3" "schemas.sql" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/src/molecules/" (25109 10675 703416 882000) "#EditScenarioButton.jsx#" "EditScenarioButton.jsx" "EditTransactionGroupButton.jsx" "../" "./")
+
+ ("/Users/epwr/audette/working/gooddata/gooddataapi/" (25109 33299 191174 841000) "gooddataapi.py" "../" "./")
+
+ ("/Users/epwr/audette/working/gooddata/" (25109 33250 206584 628000) "morguard_edmonton_sites.csv" "220203-data-modeling/" "gooddataapi/" "morguard_edmonton_meters.csv" "220222-data-model/" ".gitignore" "gwl-realty-advisors-logo-white.svg" "220117-testing/" "bq-results-20220113-170337-kpuibe4uajmn.csv" "secrets/" "schema.sql" ".DS_Store" "carbon_intensities.csv" "../" "./")
+
+ ("/Users/epwr/Library/" (25101 12892 434312 73000) "PythonWrapper/" "Caches/" "DoNotDisturb/" "StatusKit/" "CoreFollowUp/" "Keyboard/" "Services/" "Cookies/" "Input Methods/" "Reminders/" "SafariSafeBrowsing/" "Spelling/" "CallServices/" "Screen Savers/" "Metadata/" "KeyboardServices/" "Accessibility/" "Fonts/" "Photos/" "PersonalizationPortrait/" "Intents/" "ContainerManager/" "Containers/" "Group Containers/" "LaunchAgents/" "Suggestions/" "Mobile Documents/" "Shortcuts/" "PreferencePanes/" "Biome/" "Colors/" "Safari/" "Accounts/" "News/" "FrontBoard/" "Internet Plug-Ins/" "Logs/" "DataDeliveryServices/" "Keyboard Layouts/" "Audio/" "SyncedPreferences/" "Printers/" "com.apple.internal.ck/" "HTTPStorages/" "DuetExpertCenter/" "Sounds/" "FontCollections/" "google-cloud-sdk/" "SafariSandboxBroker/" "Passes/" "Contacts/" "Favorites/" "LanguageModeling/" "Google/" "Compositions/" "Trial/" "Mail/" "Python/" "Translation/" "Assistants/" "Application Scripts/" "com.apple.WatchListKit/" "ColorPickers/" "Sharing/" "Keychains/" "HomeKit/" "Messages/" "Staging/" "studentd/" "Preferences/" "Calendars/" "WebKit/" "IdentityServices/" "Saved Application State/" "Autosave Information/" "Assistant/" "Maps/" "Application Support/" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/src/pages/" (25108 31115 570115 573000) "Home.jsx" "ScenarioBuilder.jsx" "Analytics.jsx" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/src/utils/" (25108 27490 779385 704000) "config.js" "api.jsx" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/backend/app/data_access/" (25108 27748 670481 982000) "create_table_statements.py" "database.py" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/src/" (25108 25487 946454 516000) "organisms/" "pages/" "index.jsx" "App.jsx" "index.css" "utils/" "atoms/" "molecules/" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/backend/app/" (25108 23716 874742 674000) "utils.py" "__init__.py" "data_access/" "log.py" "scenarios.py" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/src/organisms/" (25108 22065 28285 489000) "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/examples/" (25107 61021 913541 865000) "03-styling-nodes.html" "05-style-this-doc.html" "02-basic-html-nodes.html" "04-node-attributes.html" "05-style.css" "01-simple-html.html" "../" "./")
+
+ ("/Users/epwr/custom/teaching-code/notes/" (25107 61039 546952 391000) "02-basic-html-nodes.md" "03-styling-in-html.md" "05-css.md" "01-html-dom.md" "04-attributes.md" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/backend/requirements/" (25108 6414 494368 795000) "development.txt" "common.txt" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/backend/tests/" (25108 13106 214808 484000) "test_get_scenarios_endpoint.sh" "test_scenario_create_endpoint.sh" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/public/" (25108 18420 960674 970000) "logo192.png" "robots.txt" "manifest.json" "logo512.png" "index.html" "favicon.ico" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/frontend/" (25108 18258 861977 804000) "src/" "package.json" "package-lock.json" ".gitignore" "public/" "yarn.lock" "README.md" "node_modules/" "../" "./")
+
+ ("/Users/epwr/custom/financial-exploration/backend/" (25108 12354 278528 784000) "main.py" ".gitignore" "requirements/" "tests/" "secrets/" "Dockerfile" "config/" "app/" "../" "./")
+
+ ("/Users/epwr/custom/simplessg/" (25107 57824 287796 828000) "src/" ".git/" "README.md" "docs/" "../" "./")
+
+ ("/Users/epwr/audette/projects/scripts-backend/app/" (25074 60321 641760 112000) "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
