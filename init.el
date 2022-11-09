@@ -7,6 +7,7 @@
   (add-to-list 'load-path "<path where use-package is installed>")
   (require 'use-package))
 
+
 ;; Run mac-os config when appropriate
 (when (eq system-type 'darwin)
     (load "~/.emacs.d/init-mac-os.el"))
@@ -25,7 +26,7 @@
 ;; Set up the MELPA stable repository
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
+             '("melpa" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
 ;; Set up multiple-cursors
@@ -60,12 +61,15 @@
 
 
 ;; Python
-(setq python-shell-interpreter "python3")
+(defun my/python-mode-hook ()
+  (add-to-list 'company-backends 'company-jedi)
+  (setq python-shell-interpreter "python3"))
+(add-hook 'python-mode-hook 'my/python-mode-hook)
 
 ;; Jedi (python auto complete)
-(add-hook 'python-mode-hook 'jedi:setup)
-(setq jedi:complete-on-dot t)                 ; optional
-(setq jedi:environment-virtualenv '("/Users/epwr/Library/Python/3.8/bin/virtualenv"))
+;; (add-hook 'python-mode-hook 'jedi:setup)
+;; (setq jedi:complete-on-dot t)                 ; optional
+;; (setq jedi:environment-virtualenv '("/Users/epwr/Library/Python/3.8/bin/virtualenv"))
 
 
 ;; Typescript
@@ -100,6 +104,27 @@
 (flycheck-add-mode 'typescript-tslint 'web-mode)
 
 
+;; Elixir
+;(defun project-root (project) (car (project-roots project))) ; hack way to fix emacs 27+ project-root v project-roots.
+(use-package lsp-mode
+  :commands lsp
+  :ensure t
+  :diminish lsp-mode
+  :hook
+  (elixir-mode . lsp)
+  :init
+  (add-to-list 'exec-path "~/.local/programs/elixir-ls/"))
+(setq lsp-enable-snippet `f)
+(add-hook 'after-init-hook #'global-flycheck-mode) ; setup flycheck
+
+
+;; Org Mode
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)))
+
+
+
 ;; ---------------------------------------------------------------------------------------------------------
 
 (custom-set-variables
@@ -107,8 +132,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(cider-lein-command "/opt/homebrew/bin/lein")
  '(package-selected-packages
-   '(tide ## js2-mode tern-context-coloring tern-auto-complete tern-autocomplete tern multiple-cursors better-defaults)))
+   '(company-jedi graphql-mode graphql hcl-mode flycheck flycheck-elixir yasnippet lsp-mode elixir-mode eglot janet-mode parseclj cider tide ## js2-mode tern-context-coloring tern-auto-complete tern-autocomplete tern multiple-cursors better-defaults)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
