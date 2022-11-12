@@ -1,3 +1,11 @@
 elpa/
 auto-save-list/
 backups/
+
+.ac-comphist.dat
+.cache/
+.dap-breakpoints/
+.mc-lists.el
+.lsp-session-v1
+eshell
+.dap-breakpoints
