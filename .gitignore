@@ -9,3 +9,5 @@ backups/
 .lsp-session-v1
 eshell
 .dap-breakpoints
+ac-comphist.dat
+ido.last
