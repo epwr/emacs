@@ -17,9 +17,13 @@
 ;; Lsp-mode is used instead of eglot as it promises (to be confirmed) that it integrates well with
 ;; most common packages (eg. company and flycheck)
 (use-package lsp-mode
-    :ensure t)
-;; (setq 
-;;    lsp-pyls-server-command "sh /Users/epwr/.pyenv/shims/pylsp")
+    :ensure t
+    :config
+    (setq lsp-prefer-flymake nil) ;; Prefer using lsp-ui (flycheck) over flymake.
+    )
+
+;; TODO: setup lsp-ui.
+;; Check section 4.1 of https://www.mortens.dev/blog/emacs-and-the-language-server-protocol/index.html
 
 
 ;; Configure flycheck
@@ -39,15 +43,37 @@
 ;; `company` is a tool that provides auto-complete.
 (use-package company
   :ensure t
-  :hook (after-init . global-company-mode) ;; Use company in all buffers
   :config
   (setq company-tooltip-align-annotations t
         company-minimum-prefix-length 1
-        company-idle-delay 0.0)
+        company-idle-delay 0.1)
+  (global-company-mode t) ;; Use company in all buffers
   (with-eval-after-load 'lsp-mode
     (add-hook 'lsp-mode-hook #'company-mode))
   (add-to-list 'company-backends 'company-capf))
 
 
+;; TODO: setup treemacs
+;; Worth setting up with projectile & lsp integration.
+
+
+;; Set up rainbow delimiters
+(use-package rainbow-delimiters
+  :ensure t)
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
+
+
+;; Set up highlighted indents
+(use-package highlight-indent-guides
+  :hook 'prog-mode 'highlight-indent-guides-mode
+  :config
+  (setq highlight-indent-guides-responsive 'top)
+  (setq highlight-indent-guides-auto-enabled
+	nil)
+  )
+
 ;; Install each language configuration
-(load (concat user-emacs-directory "lib/lang-python"))
+(load (concat
+       user-emacs-directory "lib/lang-python"))
+

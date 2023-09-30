@@ -13,6 +13,10 @@
 ;; Emacs v29
 
 
+;; Setup LSP
+;; TODO: this will break when I change computers. Unclear why I have to do this, something
+;; about MacOS not starting applications from a terminal so the PATH being weird. 
+(setq lsp-pylsp-server-command "/Users/epwr/.pyenv/shims/pylsp")
 
 ;; Setup Tree Sitter for Python
 (use-package python-ts-mode
@@ -22,20 +26,12 @@
            )
     :mode ("\\.py\\'" . python-ts-mode) ;; Enter python-ts-mode when opening .py files
 )
-
-;; TODO: the following does not make this work. There are two issues:
-;; 1. python-mode does not work with lsp-mode because emacs can't find the pylsp command in the path.
-;; 2. python-ts-mode is not in the list of clients.
-;;    See: `lsp-mode' doesn't have any integration for the language behind `python-ts-mode'. Refer to https://emacs-lsp.github.io/lsp-mode/page/languages and https://langserver.org
-;;    See: https://stackoverflow.com/questions/69601017/why-lsp-mode-prompt-command-pyls-is-not-present-on-the-path-in-emacs
 (add-to-list 'lsp-language-id-configuration '(python-ts-mode . "python")) ;; Connect to LSP when entering python-ts-mode
-
-
-;; Set up linters for flycheck
 
 ;; Testing out highlighted indents
 (use-package highlight-indent-guides
     :ensure t
-    :hook (python-ts-mode . highlight-indent-guides-mode)
+    :hook (prog-mode . highlight-indent-guides-mode)
     :config
-    (setq hightlight-indent-guides-method `character)) 
+    (setq hightlight-indent-guides-method `column))
+
