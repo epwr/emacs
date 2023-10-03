@@ -21,5 +21,5 @@
 ;; Set up the executable path from the local terminal.
 ;; Some packages (eg. flycheck) make note of needing this explicitly on MacOS.
 (use-package exec-path-from-shell
-    :ensure t)
+   :ensure t)
 (exec-path-from-shell-initialize)

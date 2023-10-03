@@ -1,3 +1,4 @@
+
 ;; Copyright (C) 2023 Eric Power
 ;;
 ;; DESCRIPTION:
@@ -5,6 +6,9 @@
 ;;
 ;; REQUIREMENTS:
 ;; Emacs v29
+
+;; Display stacktrace on error
+;; (setq debug-on-error t)
 
 
 ;; Load core setup file

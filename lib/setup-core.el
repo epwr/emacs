@@ -21,8 +21,19 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
-(fido-mode) ;; Turn on auto complete in mini-buffer. Use C-d to use what you typed, not suggestion.
+(use-package flx-ido
+  :ensure t
+  :config
+  (require 'flx-ido)
+  (ido-mode 1)
+  (ido-everywhere 1)
+  (flx-ido-mode 1)
+  ;; disable ido faces to see flx highlights.
+  (setq ido-enable-flex-matching t)
+  (setq ido-use-faces nil))
 
+
+;; (fido-mode) ;; Turn on auto complete in mini-buffer. Use C-d to use what you typed, not suggestion.
 
 ;; Load Theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
@@ -44,11 +55,13 @@
 ;; Set up multiple-cursors
 ;; Documentation: https://github.com/magnars/multiple-cursors.el
 ;; Note: You can press C-' to hide all lines without a cursor, press C-' again to unhide.
-(use-package multiple-cursors 
+(use-package multiple-cursors
   :ensure t)
 (global-set-key (kbd "C-<right>") 'mc/mark-next-like-this) 
 (global-set-key (kbd "C-<left>") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-<down>") 'mc/edit-lines) ;; Create cursors on each line of the selected region
+(global-set-key (kbd "C-s-/") 'comment-dwim)	 ;; Comment / uncomment a region, comment a line, align a comment, etc. dwih -> "do what I mean"
+
 (define-key mc/keymap (kbd "<return>") nil) ;; Disables exiting multiple cursors via <return>. Use C-g to exit.
 
 

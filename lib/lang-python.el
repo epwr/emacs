@@ -14,9 +14,9 @@
 
 
 ;; Setup LSP
-;; TODO: this will break when I change computers. Unclear why I have to do this, something
-;; about MacOS not starting applications from a terminal so the PATH being weird. 
-(setq lsp-pylsp-server-command "/Users/epwr/.pyenv/shims/pylsp")
+;; TODO: I had to unset the setup-customise.el file's exec-path customization because it was overwritting what
+;; came from the PATH.
+;; (setq lsp-pylsp-server-command "/Users/epwr/.pyenv/shims/pylsp")
 
 ;; Setup Tree Sitter for Python
 (use-package python-ts-mode
@@ -28,10 +28,5 @@
 )
 (add-to-list 'lsp-language-id-configuration '(python-ts-mode . "python")) ;; Connect to LSP when entering python-ts-mode
 
-;; Testing out highlighted indents
-(use-package highlight-indent-guides
-    :ensure t
-    :hook (prog-mode . highlight-indent-guides-mode)
-    :config
-    (setq hightlight-indent-guides-method `column))
+
 
