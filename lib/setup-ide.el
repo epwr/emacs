@@ -63,9 +63,8 @@
   :bind (:map projectile-mode-map
               ("s-p" . projectile-command-map)) ;; s-p recommended for macos, C-c p for Linux
   :config
-  (setq projectile-project-search-path '("~/projs/" ;; set up a list of directories to auto-load projects from.
-					 "~/tools/"
-					 "~/custom/")
+  (setq projectile-project-search-path '("~/projs" ;; set up a list of directories to auto-load projects from.
+					 )
 	)
   ) ;; Usage notes: https://docs.projectile.mx/projectile/usage.html#interactive-commands
 
@@ -100,4 +99,6 @@
 ;; Install each language configuration
 (load (concat user-emacs-directory "lib/lang-python"))
 (load (concat user-emacs-directory "lib/lang-golang"))
+(load (concat user-emacs-directory "lib/lang-latex"))
+(load (concat user-emacs-directory "lib/lang-terraform"))
 

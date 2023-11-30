@@ -23,3 +23,7 @@
 (use-package exec-path-from-shell
    :ensure t)
 (exec-path-from-shell-initialize)
+
+;; Remove the bells. Scrolling to the top/bottom of a file with
+;; weighted scrolling is getting annoying.
+(setq ring-bell-function 'ignore)
