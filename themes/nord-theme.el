@@ -50,7 +50,7 @@
 ;;; Code:
 
 (deftheme nord
-  "A UI Theme for Emacs based on material design colors")
+  "A UI Theme for Emacs based on Nord design colors.")
 (display-color-cells (selected-frame))
 (let* ((class '((class color) (min-colors 89)))
        (256color  (eq (display-color-cells (selected-frame)) 256))
@@ -59,7 +59,9 @@
        (background               "#2E3440")  ;; sidebar-container
        (current-line             "#4C566A")  ;; tree-row
        (far-background           "#4C566A")  ;; sidebar-container  ;; panel-control
-       (diff-nonactive-bg        "#000000")        
+       (background-variant-1     "#3B4252")
+       (background-variant-2     "#434C5E")
+       (diff-nonactive-bg        "#000000")
        (diff-current-A-bg        "#000000")
        (diff-fine-A-bg           "#000000")
        (diff-current-B-bg        "#000000")
@@ -81,7 +83,8 @@
        (green                    "#A3BE8C")  ;; complement tab-control-dirty-tab-close-button
        (aqua                     "#B48EAD")  ;; lighter complement tab-control-dirty-tab-close-button
        (blue                     "#5E81AC")  ;; complement tab-control-dirty-tab-close-button
-       (purple                   "#81A1C1")) ;; complement tab-control-dirty-tab-close-button
+       (purple                   "#81A1C1")  ;; complement tab-control-dirty-tab-close-button
+       (black                    "#000000"))  ;; for highlighted region only
 
   (custom-theme-set-faces
    'nord
@@ -144,9 +147,10 @@
    `(flycheck-error ((,class (:underline (:style wave :color ,red)))))
    `(flycheck-warning ((,class (:underline (:style wave :color ,orange)))))
 
-   ;; highlight indentation
-   `(highlight-indentation-face ((,class (:background, current-line))))
-   `(highlight-indentation-current-column-face ((,class (:background, far-background))))
+   ;; highlight indent guides
+   `(highlight-indent-guides-odd-face ((,class (:background ,aqua))))
+   `(highlight-indent-guides-even-face ((,class (:background ,far-background))))
+   `(highlight-indent-guides-character-face ((,class (:background ,aqua))))
 
    ;; Flymake
    `(flymake-warnline ((,class (:underline (:style wave :color ,orange) :background ,background))))
@@ -190,10 +194,13 @@
    `(mmm-comment-submode-face ((,class (:inherit font-lock-comment-face))))
    `(mmm-output-submode-face ((,class (:background ,current-line))))
 
+   ;; multi-cursors
+   `(mc/region-face ((,class (:foreground ,background :background ,black :inverse-video nil))))
+   
    ;; Search
    `(match ((,class (:foreground ,background :background ,green :inverse-video nil))))
    `(isearch ((,class (:foreground ,foreground :background ,green))))
-   `(lazy-highlight ((,class (:foreground ,background :background ,green :inverse-video nil))))
+   `(lazy-highlight ((,class (:foreground ,background :background ,black :inverse-video nil))))
    `(isearch-fail ((,class (:background ,background :inherit font-lock-warning-face :inverse-video t))))
 
    ;; Evil
@@ -246,7 +253,7 @@
    `(mode-line-emphasis ((,class (:foreground ,foreground :slant italic))))
    `(mode-line-highlight ((,class (:foreground ,purple :box nil))))
    `(minibuffer-prompt ((,class (:foreground ,blue))))
-   `(region ((,class (:background ,selection))))
+   `(region ((,class (:background ,black))))
    `(secondary-selection ((,class (:background ,secondary-selection))))
 
    `(header-line ((,class (:inherit mode-line :foreground ,purple :background nil))))
