@@ -11,3 +11,5 @@ eshell
 .dap-breakpoints
 ac-comphist.dat
 ido.last
+tree-sitter
+projectile-bookmarks.eld
