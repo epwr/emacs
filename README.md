@@ -34,6 +34,6 @@ pip install 'python-lsp-server[all]'
 | s-p P       | run the standard test suite command, by project type       | projectile |
 | s-p p       | show known projects to switch to                           | projectile |
 | s-p q       | shown open projects to switch to                           | projectile |
-|             |                                                            |            |
+| s-l         |                                                            |            |
 
 

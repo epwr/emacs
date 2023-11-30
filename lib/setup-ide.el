@@ -22,6 +22,7 @@
   (setq lsp-keymap-prefix "s-l")
   :config
   (setq lsp-prefer-flymake nil) ;; Prefer using lsp-ui (flycheck) over flymake.
+  (setq gc-cons-threshold 100000000) ;; Decrease garbage collection frequency by increasing the threshold. In bytes, so 100MB
   )
 
 ;; TODO: setup lsp-ui.
