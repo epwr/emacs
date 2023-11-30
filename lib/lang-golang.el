@@ -16,22 +16,8 @@
 
 ;; Setup LSP
 (add-hook 'go-ts-mode-hook #'lsp-deferred)
-(defun lsp-go-install-save-hooks ()
-  (add-hook 'before-save-hook #'lsp-format-buffer t t)
-  (add-hook 'before-save-hook #'lsp-organize-imports t t))
-(add-hook 'go-ts-mode-hook #'lsp-go-install-save-hooks)
-;; (add-to-list 'lsp-language-id-configuration '(go-ts-mode . "go")) ;; Connect to LSP when entering go-ts-mode
-
-;; Setup Tree Sitter
-;; (use-package go-ts-mode
-;;   :hook ((go-ts-mode . company-mode)
-;; 	 (go-ts-mode . lsp)
-;; 	 )
-;;   :mode ("\\.go\\'" . go-ts-mode)
-;;   )
-  
+(add-hook 'go-ts-mode-hook 'company-mode)
 (add-to-list 'auto-mode-alist '("\\.go\\'" . go-ts-mode))
-(add-hook 'go-ts-mode 'company-mode)
-(add-hook 'go-ts-mode #'lsp-deferred)
+
 
 (setq go-ts-mode-indent-offset 4)

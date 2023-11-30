@@ -18,7 +18,7 @@
  ;; If there is more than one, they won't work right.
  '(cider-lein-command "/opt/homebrew/bin/lein")
  '(custom-safe-themes
-   '("dccf377876adeea16bc98f3a77514bae2fe0f8877bee635c6ac488773b95b7ba" "a710c32bfe207a30a015b969cfb4bafe2bcd371f237482d55e303e25da8dd423" "f99a64a71f3cd98406914e5cf6d097da81bf2086173a83e0e56b190804b29f51" "b651cb8f4037871793c1df629cce42483843c3e54af6816b0ff7fa17a0f8e0a1" default))
+   '("1b4c6994f0f55c205a499b8d4b29e2a165d60865f3e87e3be8e929f21223cc28" "dccf377876adeea16bc98f3a77514bae2fe0f8877bee635c6ac488773b95b7ba" "a710c32bfe207a30a015b969cfb4bafe2bcd371f237482d55e303e25da8dd423" "f99a64a71f3cd98406914e5cf6d097da81bf2086173a83e0e56b190804b29f51" "b651cb8f4037871793c1df629cce42483843c3e54af6816b0ff7fa17a0f8e0a1" default))
  '(package-selected-packages '(treesit-auto lsp-mode flycheck company)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
