@@ -29,5 +29,9 @@
 )
 (add-to-list 'lsp-language-id-configuration '(python-ts-mode . "python")) ;; Connect to LSP when entering python-ts-mode
 
-
+(use-package blacken
+  :ensure
+  :hook ((python-mode . blacken-mode)
+		 (python-ts-mode . blacken-mode)
+		 ))
 
