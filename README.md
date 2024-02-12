@@ -1,31 +1,18 @@
 # Emacs Setup
 
-
-## Fresh Installation
-
-Once you have a new version of emacs setup, run the following commands:
-
-In emacs:
-
-```elisp
-M-x treesit-install-language-grammar python
-```
-
-In terminal (using global python env):
-
-```bash
-pip install 'python-lsp-server[all]'
-```
+My personal emacs setup. 
 
 ### Additional Optional Steps:
+
+This setup should work out of the box without addtional setup. However, some tools - particularly the tree sitter support for 
+various languages - will require some additional configuration.
 
 1. Go through each `/lib/lang-*.el` file and see what command needs to be run to install the relevant treesiter.
 2. Install some CLI tools to help `projectile` do it's stuff: `fd` (faster version of `find`) and `ag` (a better `grep`)
 
-## Known Issues:
-
 ## Keybindings:
 
+A list of keybindings that I've added that are not common enough for me to have memorized when I added them:
 
 | Keybindings | Description                                                | Package    |
 |-------------|------------------------------------------------------------|------------|
