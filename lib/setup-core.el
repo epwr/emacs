@@ -43,6 +43,7 @@
       version-control t)       ; use versioned backups
 (setq auto-save-file-name-transforms
       `((".*" "~/.emacs.d/saves/" t)))
+(setq create-lockfiles nil)    ; no .# lockfiles
 
 ;; Load Theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
